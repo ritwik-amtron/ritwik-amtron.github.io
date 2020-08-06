@@ -1,0 +1,126 @@
+:root {
+    font-size: 62.5%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.container1 {
+    padding-left: 20px;
+    margin-left: 0px !important;
+}
+
+.sidenav1 {
+    background-color: rgb(235, 246, 246);
+    height: 100vh;
+    margin-left: -5px;
+    position: fixed;
+}
+
+ul {
+    font-size: 3rem;
+}
+
+.homepage {
+    background-image: url('img (3).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.homepage-title {
+    /* text-transform: uppercase; */
+    font-size: 6rem;
+    font-weight: bold;
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Archivo Black', sans-serif; */
+    font-family: 'Fredericka the Great', cursive;
+    /* font-family: 'Noto Serif JP', serif; */
+    /* font-family: 'Thasadith', sans-serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+
+#about,
+#portfolio,
+#contacts,
+#resume {
+    height: 100vh;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 50px;
+}
+
+.title-links {
+    margin-left: 40px;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.title-links ul li a>i {
+    color: #212529;
+    padding: 10px;
+    font-size: 2rem !important;
+}
+
+ul li a>i.fa-facebook:hover {
+    color: rgb(15, 98, 206);
+
+}
+
+ul li a>i.fa-instagram:hover {
+    color: rgb(73, 20, 104);
+}
+
+ul li a>i.fa-linkedin:hover {
+    color: rgb(15, 98, 206);
+}
+
+ul li a>i.fa-envelope-o:hover {
+    color: rgb(105, 0, 0);
+}
+
+/* 
+.link-btn-background {
+    width: 60px;
+    height: 80px;
+    padding: 10px 10px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+    background-color: aqua;
+
+} */
+
+/* .container1 {
+    padding: 50px;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    height: 70vh;
+    background-image: url('img (3).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    border-radius: 25px;
+}
+
+.moved {
+    transform: translate(800px, -150px);
+    background-color: pink;
+    height: 35vh;
+    width: 50%;
+    border-radius: 25px;
+} */
